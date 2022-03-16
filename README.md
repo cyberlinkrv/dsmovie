@@ -44,7 +44,19 @@ Caso você prefira pode utilizar o comando do NPM
 ```
 npx create-react-app frontend --template typescript
 ```
-## Criando o projeto no backend usando Spring
+## Criando o projeto no backend usando Spring Boot
+
+[entre no Link do Spring Boot](https://start.spring.io/) e coloque as dependencias:
+
+  - Web
+  - JPA
+  - H2
+  - Postgres
+  - Security
+
+  - Segue imagem para que possa verificar 
+
+  ![DJSoftware](https://github.com/cyberlinkrv/dsmovie/blob/master/doc-files/fig/Spring.png)
 
 
 
