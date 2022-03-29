@@ -46,7 +46,7 @@ npx create-react-app frontend --template typescript
 ```
 ## Criando o projeto no backend usando Spring Boot
 
-[entre no Link do Spring Boot](https://start.spring.io/) e coloque as dependencias:
+[Entre no Link do Spring Boot](https://start.spring.io/) e coloque as dependencias:
 
   - Web
   - JPA
@@ -57,6 +57,36 @@ npx create-react-app frontend --template typescript
   - Segue imagem para que possa verificar 
 
   ![DJSoftware](https://github.com/cyberlinkrv/dsmovie/blob/master/doc-files/fig/Spring.png)
+
+A IDE que utilizei para desenvolver o Backend foi [Spring Tool Suite 4](https://spring.io/tools) que pode ser baixada aqui
+
+Após abrir o projeto Backend
+
+- Ajuste no arquivo pom.xml:
+```xml
+<plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-resources-plugin</artifactId>
+	<version>3.1.0</version>
+</plugin>
+```
+Faça também a atualização do projeto para que todas as dependências seja baixadas
+
+ - Botão direito no projeto -> Maven -> Update project (force update)
+
+ ## Frontend
+
+ ### "limpar" o projeto ReactJS no Frontend
+
+- Deletar arquivos não usados
+
+### Adicionar Bootstrap e CSS ao projeto frontend
+
+- Bootstrap
+```
+yarn add bootstrap@5.1.3
+```
+
 
 
 
